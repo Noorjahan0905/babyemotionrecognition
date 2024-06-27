@@ -17,7 +17,7 @@ The bar graph shows the count of emotions used in a baby emotion recognition pro
 
 The left graph shows the training loss decreasing steadily while the testing loss fluctuates before decreasing, indicating overfitting initially but improvement later. The right graph shows training accuracy reaching near 100% quickly, while testing accuracy improves gradually, stabilizing around 90% by 50 epochs.
 
-# Working of classification
+# Working 
 <img width="488" alt="image" src="https://github.com/Noorjahan0905/babyemotionrecognition/assets/105159578/b652f602-e807-458d-99b8-e6b509c84eff">
 
 The CNN architecture in the model extracts hierarchical features from the audio data through multiple convolutional and pooling layers, normalizes and regularizes these features, and then classifies them into emotion categories using dense layers.
